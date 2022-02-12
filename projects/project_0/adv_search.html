@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="./css/styles.css">
+    </head>
+    <body>
+        <div>
+            <header>Google</header>
+            <label style="margin-left:10px">Advanced Search</label>
+        </div>
+        <div class="body">
+            <form class="form1" action="https://www.google.com/search">
+                <div class="fields">
+                    <div class="f1">
+                        <label class="l1" for="field1">All these words:</label>
+                        <input class="t1" type="text" name="as_q" id="field1">
+                    </div> <br>
+                    <div class="f1">
+                        <label class="l1" for="field2">This exact word or phrase:</label>
+                        <input class="t1" type="text" name="as_epq" id="field2">
+                    </div><br>
+                    <div class="f1">
+                        <label class="l1" for="field3">Any of these words:</label>
+                        <input class="t1" type="text" name="as_oq" id="field3">
+                    </div><br>
+                    <div class="f1">
+                        <label class="l1" for="field4">None of these words:</label>
+                        <input class="t1" type="text" name="as_eq" id="field4">
+                    </div><br>
+                    <div class"sbutton">
+                        <input class="button" type="submit" value="Advanced Search">
+                    </div>
+                <!-- <input type="hidden" name="tbm" value="isch"> -->
+                </div>
+            </form>
+        </div>
+        <div>
+            <a href="index.html">Search</a>
+        </div>
+    </body>
+</html>
+
+<!-- as_q=hey&as_epq=hello&as_oq=but&as_eq=nope&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=&tbs= -->

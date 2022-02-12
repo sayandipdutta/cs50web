@@ -1,0 +1,37 @@
+div.body {
+    max-width: 1140px;
+    min-width: 200px;
+    width: 96%;
+    margin: 40px 2% 0 45px;
+}
+
+div.f1 label.l1 {
+    float: left;
+    display: inline-block;
+    min-width: 167px;
+    width: 16%;
+    height: 42px;
+    color: #222;
+    font-size: 13px;
+    line-height: 16px;
+    vertical-align: middle;
+}
+.t1 {
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+}
+/* div.f1 input.t1 { */
+/*     float: left; */
+/*     display: inline-block; */
+/*     min-width: 167px; */
+/*     min-height: 41px; */
+/*     vertical-align: middle; */
+/*     width: 50%; */
+/* } */
+/*# sourceMappingURL=styles.css.map */
