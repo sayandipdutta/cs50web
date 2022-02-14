@@ -1,3 +1,27 @@
+.links {
+    position: absolute;
+    left: 85%;
+}
+
+h1 {
+    position: relative;
+    font-size: 5em;
+    font-family: Roboto;
+    text-align: center;
+}
+
+.main {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    /* height: 100%; */
+    /* vertical-align: -webkit-baseline-middle; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* vertical-align: middle; */
+}
 .search_button {
     background-color: transparent;
     border: none;
@@ -27,21 +51,21 @@
     width: auto;
     max-width: 584px;
     align-items: center;
+    justify-content: center;
 }
 
 .textbox {
     background-color: transparent;
     border: none;
-    /* margin: 5; */
-    /* padding: 15; */
     color: rgba(0,0,0,.87);
     word-wrap: break-word;
     outline: none;
     display: flex;
     flex: 100%;
     /* margin-top: -37px; */
+    margin-left: 15px;
     height: 34px;
-    width: auto;
+    width: 400px;
     font-size: 16px;
 }
 
