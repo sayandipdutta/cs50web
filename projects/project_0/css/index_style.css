@@ -36,6 +36,7 @@ ul {
 
 a {
   color: inherit;
+  text-decoration: None;
 }
 
 li.nav-links a:hover {

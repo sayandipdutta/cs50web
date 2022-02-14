@@ -5,41 +5,54 @@
         <link rel="stylesheet" href="./css/styles.css">
     </head>
     <body>
-        <div>
-            <header><a href="adv_search.html"><img src="src/adv_search.png" alt="adv_search.logo"></a></header>
-            <label>Advanced Search</label>
-        </div>
+        <nav>
+            <a href="index.html"><img src="src/adv_search.png" alt="Google"></a>
+                <div class="nav_bar">
+                    <div class="nav-links"><a href="index.html">Google</a></div>
+                </div>  
+        </nav>  
+        <h2>Advanced Search</h2>
         <div class="line"></div>
-        <div class="link">
-            <a href="index.html">Search</a>
-        </div>
         <div class="body">
             <form class="form1" action="https://www.google.com/search">
-                <span>Find pages with...</span>
+    <h4 style="font-weight:normal">Find pages with...</h4>
                 <div class="fields">
                     <div class="f1">
                         <label class="l1" for="field1">all these words:</label>
                         <input class="t1" type="text" name="as_q" id="field1">
-                    </div> <br>
+                    </div>
                     <div class="f1">
                         <label class="l1" for="field2">this exact word or phrase:</label>
                         <input class="t1" type="text" name="as_epq" id="field2">
-                    </div><br>
+                    </div>
                     <div class="f1">
                         <label class="l1" for="field3">any of these words:</label>
                         <input class="t1" type="text" name="as_oq" id="field3">
-                    </div><br>
+                    </div>
                     <div class="f1">
                         <label class="l1" for="field4">none of these words:</label>
                         <input class="t1" type="text" name="as_eq" id="field4">
-                    </div><br>
-                    <div class"sbutton">
+                    </div>
+                    <div class="sbutton">
                         <input class="button" type="submit" value="Advanced Search">
                     </div>
                 <!-- <input type="hidden" name="tbm" value="isch"> -->
                 </div>
             </form>
         </div>
+    <!-- FOOTER -->
+    <footer>
+        <ul class="footer-left">
+          <li><a href="#">Advertising</a></li>
+          <li><a href="#">Business</a></li>
+          <li><a href="#">About</a></li> 
+        </ul>
+        <ul class="footer-right">    
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Settings</a></li>
+        </ul>       
+    </footer>      
     </body>
 </html>
 
