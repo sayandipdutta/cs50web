@@ -1,27 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
-        <title>Search</title>
-        <link rel="stylesheet" href="css/index_style.css">
+        <title>Google</title>
+        <link href="css/index_style.css" rel="stylesheet">
     </head>
+
     <body>
-        <div class="links">
-            <a href="img_search.html">Image Search</a>
-            <a href="adv_search.html">Advanced Search</a>
+        <header>
+            <nav>
+                <ul id="nav_bar">
+                    <li class="nav-links"><a href="adv_search.html">Advanced Search</a></li>
+                    <li class="nav-links"><a href="image_search.html">Images</a></li>
+                    <li>    </li>
+                </ul>  
+            </nav>  
+        </header>  
+
+        <!-- GOOGLE IMG -->  
+        <div class="google">
+            <a href="index.html" id="google_logo"><img src="src/google.png" alt="google_logo.png"/></a>
         </div>
-        <h1>Google</h1>
-        <div class="main">
+
+        <!-- FORM SEARCH -->  
+        <div class="form">  
             <form action="https://www.google.com/search">
-                <div class="search">
-                    <div>
-                        <input class="textbox" type="text" name="q">
-                    </div>
-                    <div>
-                        <input class="search_button" type="submit" value="🔍">
-                    </div>
+                <label for="form-search"></label>
+                <input type="text" name="q" id="form-search" placeholder="Search Google or type URL">
+                    <!-- BUTTONS -->
+                <div class= "buttons">  
+                    <input type="submit" value="Google Search" id="google_search">
+                    <input type="submit" value="I'm Feeling Lucky" id="im_feeling_lucky">
                 </div>
             </form>
-        </div>
+        </div>  
+
+
+        <!-- FOOTER -->
+        <footer>
+            <ul class="footer-left">
+                <li><a href="#">Advertising</a></li>
+                <li><a href="#">Business</a></li>
+                <li><a href="#">About</a></li> 
+            </ul>
+            <ul class="footer-right">    
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>       
+        </footer>      
     </body>
 </html>
-

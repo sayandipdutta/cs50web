@@ -1,8 +1,44 @@
-div.body {
+header {
+    font-size: 1.5em;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-family: Roboto;;
+}
+
+body > div > label {
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #d93025;
+}
+
+span {
+    font-size: 1.2em;
+}
+
+.fields {
+    margin-top: 20px;
+}
+
+.line {
+    margin-top: 10px;
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 10px;
+}
+form.form1 {
     max-width: 1140px;
     min-width: 200px;
     width: 96%;
     margin: 40px 2% 0 45px;
+    /* top: 50%; */
+    /* position: absolute; */
+    /* transform: translate(0, -50%); */
+}
+
+div.link {
+    position: absolute;
+    margin-left: 90%;
 }
 
 div.f1 label.l1 {
@@ -24,7 +60,27 @@ div.f1 label.l1 {
     border-top: 1px solid #c0c0c0;
     font-size: 13px;
     height: 25px;
+    width: 400px;
     padding: 1px 8px;
+}
+
+.sbutton {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-left: 50%
+}
+
+.button {
+    background-color: #4d90fe;
+    color: white;
+    border: #3079ed;
+    border-radius: 5px;
+    height: 30px;
+    /* position: absolute; */
+    /* left: 50%; */
+    transform: translate(-50%, 0);
+    margin-left: 48%
 }
 /* div.f1 input.t1 { */
 /*     float: left; */
