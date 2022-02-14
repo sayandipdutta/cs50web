@@ -13,3 +13,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+
+# django
+django_lec
+django_lec/*
