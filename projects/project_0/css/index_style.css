@@ -15,19 +15,12 @@ ul {
 /* NAV BAR */
 #nav_bar {
   float: right;
+    margin-right: 15px;
 }
 
 #nav_bar li {
   display: inline-block;
   padding: 8px;
-}
-
-#nav_bar #sign_in {
-  background: #4887ef; 
-  margin-right: 25px;
-  padding: 7px 15px;
-  border-radius: 3px; 
-  font-weight: bold;
 }
 
 .nav-links {
@@ -41,14 +34,6 @@ a {
 
 li.nav-links a:hover {
   text-decoration: underline;
-}
-
-#sign_in:hover { 
-  box-shadow: 1px 1px 5px #999;
-}
-
-#sign_in {
-  color: #fff;
 }
 
 /* GOOGLE AREA */
@@ -88,11 +73,6 @@ li.nav-links a:hover {
 .form #form-search {
   padding: 0 8px;
 }
-
-/*#form-search:hover {
-  border-color: #e4e4e4;
-  padding-top: 0;
-}*/
 
 .buttons {
   text-align: center;
